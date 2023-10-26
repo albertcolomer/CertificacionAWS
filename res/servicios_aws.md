@@ -63,7 +63,7 @@
     - [Amazon Quantum Ledger Database](#Amazon-Quantum-Ledger-Database)
     - [Amazon  Timestream](#Amazon-Timestream)
     - [Amazon DocumentDB](#Amazon-DocumentDB)
-  - [AWS Migration and Transfer](#AWS-Migration-and-Transfer)
+  - [Migration and Transfer](#Migration-and-Transfer)
     - [AWS Application Migration Service](#AWS-Application-Migration-Service)
     - [AWS Migration Hub](#AWS-Migration-Hub)
     - [AWS Application Discovery Service](#AWS-Application-Discovery-Service)
@@ -116,6 +116,7 @@
     - [Amazon S3 Glacier ](#Amazon-S3-Glacier)
     - [AWS Backup ](#AWS-Backup)
     - [AWS Storage Gateway ](#AWS-Storage-Gateway)
+<br>
 
   ## Analytics
 
@@ -149,7 +150,9 @@
     ### AWS Well-Architected Tool
     >  revisar el estado de sus cargas de trabajo y las compara con las mejores prácticas arquitectónicas de AWS más recientes
 
-  ## Developer Tools
+  <br>
+
+  ## **Developer Tools**
 
     ### Amazon Corretto
     distribución gratuita, multiplataforma y lista para producción del Open Java Development Kit (OpenJDK)
@@ -184,7 +187,9 @@
     ### AWS X-Ray
     Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
 
-  ## Database
+  <br>
+
+  ## **Database**
 
     ### Amazon Aurora
     > motor de base de datos relacional compatible con MySQL y PostgreSQL
@@ -223,7 +228,7 @@
     ### Amazon DocumentDB 
     > (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
 
-  ## AWS Migration and Transfer
+  ## **Migration and Transfer**
 
     ### AWS Application Migration Service
     ### AWS Migration Hub
@@ -235,8 +240,8 @@
 
     ### AWS Snow Family
 
-    > - `AWS Snowcone`: 8TB por dispositivo, múltiples capas de seguridad y cifrado
-    > - `AWS Snowball`: admite tipos de instancias de Amazon EC2 específicos y funciones de AWS Lambda, puede desarrollar y probar en la nube de AWS y luego implementar aplicaciones en dispositivos en ubicaciones remotas para recopilar, preprocesar y enviar los datos a AWS
+    > - `AWS Snowcone` 8TB por dispositivo, múltiples capas de seguridad y cifrado
+    > - `AWS Snowball` admite tipos de instancias de Amazon EC2 específicos y funciones de AWS Lambda, puede desarrollar y probar en la nube de AWS y luego implementar aplicaciones en dispositivos en ubicaciones remotas para recopilar, preprocesar y enviar los datos a AWS
     > - `AWS Snowmobile`: 100 PB por contenedor, cifrado de 256 bits administradas a  través de AWS KMS, personal de seguridad, rastreo por GPS, monitoreo de alarmas, videovigilancia y vehículo de escolta opcional
 
     ### AWS DataSync
@@ -248,7 +253,7 @@
     Protocolo seguro de transferencia de archivos **(SFTP)**, el Protocolo de transferencia de archivos sobre SSL **(FTPS)** y el Protocolo de transferencia de archivos **(FTP)**
    
 
-  ## Networking and Content Delivery
+  ## **Networking and Content Delivery**
     
     ### Amazon API Gateway
     > servicio totalmente administrado que facilita a los desarrolladores la creación, publicación, mantenimiento, monitoreo y protección de API a cualquier escala
@@ -300,7 +305,7 @@
     > - `de carga clasico` equilibrio de carga básico entre múltiples instancias de Amazon EC2 y opera tanto a nivel de solicitud como de conexión
 
 
-  ## Security, Identity, and Compliance
+  ## **Security, Identity, and Compliance**
 
     ### Amazon Cognito
     > permite agregar registro de usuario, inicio de sesión y control de acceso a sus aplicaciones permite guardar datos localmente en los dispositivos de los usuarios y luego sincronizar datos
@@ -341,9 +346,9 @@
 
     ### AWS Identity and Access Management
     > (IAM) le permite controlar de forma segura el acceso a los servicios y recursos de AWS para sus usuarios
-    > - crear usuarios en IAM, asignarles seguridad individual
-    > - crear roles en IAM y administrar permisos para controlar qué operaciones puede realizar la entidad o servicio de AWS que asume el rol
-    > - permitir que las identidades existentes (usuarios, grupos y roles) en su empresa accedan a la Consola de administración de AWS, llamen a las API de AWS y accedan a los recursos, sin la necesidad de crear un usuario de IAM para cada identidad.
+    >> - crear usuarios en IAM, asignarles seguridad individual
+    >> - crear roles en IAM y administrar permisos para controlar qué operaciones puede realizar la entidad o servicio de AWS que asume el rol
+    >> - permitir que las identidades existentes (usuarios, grupos y roles) en su empresa accedan a la Consola de administración de AWS, llamen a las API de AWS y accedan a los recursos, sin la necesidad de crear un usuario de IAM para cada identidad.
 
     ### AWS Key Management Service
     > (KMS) creación y administración de claves y el control del uso del cifrado en una amplia gama de servicios de AWS y en sus aplicaciones
@@ -370,8 +375,8 @@
 
     ### AWS Shield
     > servicio de protección administrado de denegación de servicio distribuido (DDoS)
-    > - `AWS Shield Standard` protege contra los ataques DDoS más comunes y frecuentes de la capa de transporte y de red que tienen como objetivo su sitio web o sus aplicaciones  con Amazon CloudFront y Amazon Route 53, recibirá protección integral de disponibilidad contra todos los ataques conocidos a la infraestructura (Capas 3 y 4)
-    > - `AWS Shield Advanced` proporciona detección y mitigación adicionales contra ataques DDoS grandes y sofisticados, visibilidad de los ataques casi en tiempo real e integración con AWS WAF, un firewall de aplicaciones web, tambien  brinda acceso las 24 horas, los 7 días de la semana al equipo de respuesta DDoS (DRT) de AWS
+    >> - `AWS Shield Standard` protege contra los ataques DDoS más comunes y frecuentes de la capa de transporte y de red que tienen como objetivo su sitio web o sus aplicaciones  con Amazon CloudFront y Amazon Route 53, recibirá protección integral de disponibilidad contra todos los ataques conocidos a la infraestructura (Capas 3 y 4)
+    >> - `AWS Shield Advanced` proporciona detección y mitigación adicionales contra ataques DDoS grandes y sofisticados, visibilidad de los ataques casi en tiempo real e integración con AWS WAF, un firewall de aplicaciones web, tambien  brinda acceso las 24 horas, los 7 días de la semana al equipo de respuesta DDoS (DRT) de AWS
 
     ### AWS Single Sign On
     > (SSO) administración centralizada del acceso SSO a múltiples cuentas de AWS y aplicaciones comerciales, incluye integraciones SAML
@@ -379,7 +384,7 @@
     ### AWS Waf
     > control sobre qué tráfico permitir o bloquear en su aplicación web mediante la definición de reglas de seguridad web personalizables como inyección SQL o secuencias de comandos entre sitios
 
-  ## Storage
+  ## **Storage**
     EBS, EFS, FSx, FSx Win, s3, glacier
 
     ### Amazon Elastic Block Store 
