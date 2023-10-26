@@ -116,11 +116,11 @@
     - [Amazon S3 Glacier ](#Amazon-S3-Glacier)
     - [AWS Backup ](#AWS-Backup)
     - [AWS Storage Gateway ](#AWS-Storage-Gateway)
-<br>
+    <br>
 
-  ## Analytics
+  ## **Analytics**
 
-  ## Management and Governance
+  ## **Management and Governance**
 
     ### Amazon CloudWatch
     > Servicio de monitoreo y administración, configurar alarmas de alta resolución, visualizar registros y métricas en paralelo, tomar decisiones automatizadas
@@ -150,7 +150,7 @@
     ### AWS Well-Architected Tool
     >  revisar el estado de sus cargas de trabajo y las compara con las mejores prácticas arquitectónicas de AWS más recientes
 
-  <br>
+    <br>
 
   ## **Developer Tools**
 
@@ -187,7 +187,7 @@
     ### AWS X-Ray
     Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
 
-  <br>
+    <br>
 
   ## **Database**
 
@@ -228,6 +228,8 @@
     ### Amazon DocumentDB 
     > (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
 
+    <br>
+
   ## **Migration and Transfer**
 
     ### AWS Application Migration Service
@@ -251,7 +253,8 @@
     ### AWS Transfer Family
     > soporte totalmente administrado para transferencias de archivos directamente hacia y desde Amazon S3 o Amazon EFS
     Protocolo seguro de transferencia de archivos **(SFTP)**, el Protocolo de transferencia de archivos sobre SSL **(FTPS)** y el Protocolo de transferencia de archivos **(FTP)**
-   
+
+    <br>   
 
   ## **Networking and Content Delivery**
     
@@ -304,6 +307,7 @@
     > - `de Gateway` implementación, ampliación y ejecución de redes virtuales de terceros
     > - `de carga clasico` equilibrio de carga básico entre múltiples instancias de Amazon EC2 y opera tanto a nivel de solicitud como de conexión
 
+    <br>
 
   ## **Security, Identity, and Compliance**
 
@@ -383,6 +387,8 @@
 
     ### AWS Waf
     > control sobre qué tráfico permitir o bloquear en su aplicación web mediante la definición de reglas de seguridad web personalizables como inyección SQL o secuencias de comandos entre sitios
+
+    <br>
 
   ## **Storage**
     EBS, EFS, FSx, FSx Win, s3, glacier
