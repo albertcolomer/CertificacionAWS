@@ -125,7 +125,7 @@
     Servicio de monitoreo y administración, configurar alarmas de alta resolución, visualizar registros y métricas en paralelo, tomar decisiones automatizadas
 
     ### AWS Auto Scaling
-     proporciona una interfaz de usuario sencilla y potente que le permite crear planes de escalamiento para recursos (EC2, dynamoDB, Aurora)
+    > proporciona una interfaz de usuario sencilla y potente que le permite crear planes de escalamiento para recursos (EC2, dynamoDB, Aurora)
 
     ### AWS CloudFormation
 
