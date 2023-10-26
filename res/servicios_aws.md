@@ -192,8 +192,8 @@
 
     ### Amazon ElastiCache 
     > servicio web que facilita la implementación, operación y escalado de una caché en memoria en la nube,  admite dos motores de almacenamiento en caché en memoria de código abierto:
-    - `Redis:` almacén de datos clave-valor en memoria, rápido, de código abierto y para usar como base de datos, caché y mensajes. Están disponibles clústeres de un solo nodo y de hasta 15 fragmentos, lo que permite una escalabilidad de hasta 3,55 TiB de datos en memori
-    - `Memcache:` sistema de almacenamiento en caché de objetos de memoria ampliamente adoptado
+    > - `Redis:` almacén de datos clave-valor en memoria, rápido, de código abierto y para usar como base de datos, caché y mensajes. Están disponibles clústeres de un solo nodo y de hasta 15 fragmentos, lo que permite una escalabilidad de hasta 3,55 TiB de datos en memori
+    > - `Memcache:` sistema de almacenamiento en caché de objetos de memoria ampliamente adoptado
 
     ### Amazon Keyspaces
     > servicio de base de datos compatible con Apache Cassandra, escalable, de alta disponibilidad y administrado, datos están cifrados de forma predeterminada
