@@ -122,7 +122,7 @@
   ## Management and Governance
 
     ### Amazon CloudWatch
-    Servicio de monitoreo y administración, configurar alarmas de alta resolución, visualizar registros y métricas en paralelo, tomar decisiones automatizadas
+    > Servicio de monitoreo y administración, configurar alarmas de alta resolución, visualizar registros y métricas en paralelo, tomar decisiones automatizadas
 
     ### AWS Auto Scaling
     > proporciona una interfaz de usuario sencilla y potente que le permite crear planes de escalamiento para recursos (EC2, dynamoDB, Aurora)
@@ -179,7 +179,7 @@
   ## Database
 
     ### Amazon Aurora
-    motor de base de datos relacional compatible con MySQL y PostgreSQL
+    > motor de base de datos relacional compatible con MySQL y PostgreSQL
     5 veces más rápido que las bases de datos MySQL estándar
     3 veces más rápido que las bases de datos PostgreSQL estándar
     administrado por Amazon Relational Database Service (Amazon RDS)
@@ -187,33 +187,33 @@
     replicación en tres zonas de disponibilidad (AZ)
 
     ### Amazon DynamoDB 
-    es una base de datos de documentos y valores clave 
+    > es una base de datos de documentos y valores clave 
     10 billones de solicitudes por día y soportar picos de más de 20 millones de solicitudes por segundo
 
     ### Amazon ElastiCache 
-    servicio web que facilita la implementación, operación y escalado de una caché en memoria en la nube,  admite dos motores de almacenamiento en caché en memoria de código abierto:
+    > servicio web que facilita la implementación, operación y escalado de una caché en memoria en la nube,  admite dos motores de almacenamiento en caché en memoria de código abierto:
     - `Redis:` almacén de datos clave-valor en memoria, rápido, de código abierto y para usar como base de datos, caché y mensajes. Están disponibles clústeres de un solo nodo y de hasta 15 fragmentos, lo que permite una escalabilidad de hasta 3,55 TiB de datos en memori
     - `Memcache:` sistema de almacenamiento en caché de objetos de memoria ampliamente adoptado
 
     ### Amazon Keyspaces
-    servicio de base de datos compatible con Apache Cassandra, escalable, de alta disponibilidad y administrado, datos están cifrados de forma predeterminada
+    > servicio de base de datos compatible con Apache Cassandra, escalable, de alta disponibilidad y administrado, datos están cifrados de forma predeterminada
 
     ### Amazon Neptune
-    servicio de base de datos de gráficos rápido, confiable y totalmente administrado, admite los modelos de gráficos populares Property Graph y RDF del W3C, y sus respectivos lenguajes de consulta Apache TinkerPop Gremlin y SPARQ
+    > servicio de base de datos de gráficos rápido, confiable y totalmente administrado, admite los modelos de gráficos populares Property Graph y RDF del W3C, y sus respectivos lenguajes de consulta Apache TinkerPop Gremlin y SPARQ
 
     ### Amazon RDS
-    proporciona seis motores de bases de datos, Amazon Aurora, PostgreSQL, mysql, MaríaDB, base de datos oracle, y servidor SQL
+    > proporciona seis motores de bases de datos, Amazon Aurora, PostgreSQL, mysql, MaríaDB, base de datos oracle, y servidor SQL
 
     ### Amazon Quantum Ledger Database 
-    (QLDB) es una base de datos contable totalmente administrada que proporciona un registro de transacciones transparente, inmutable y criptográficamente verificable propiedad de una autoridad central confiable, realiza un seguimiento de todos y cada uno de los cambios en los datos de las aplicaciones y mantiene un historial completo inmutable y verificable
+    > (QLDB) es una base de datos contable totalmente administrada que proporciona un registro de transacciones transparente, inmutable y criptográficamente verificable propiedad de una autoridad central confiable, realiza un seguimiento de todos y cada uno de los cambios en los datos de las aplicaciones y mantiene un historial completo inmutable y verificable
     elimina la necesidad de desarrollar sus propias aplicaciones tipo libro mayor
 
     ### Amazon  Timestream 
-    servicio de base de datos de series temporales rápido, escalable y totalmente administrado para IoT y aplicaciones operativas que facilita el almacenamiento y análisis de billones de eventos por día
+    > servicio de base de datos de series temporales rápido, escalable y totalmente administrado para IoT y aplicaciones operativas que facilita el almacenamiento y análisis de billones de eventos por día
     puede almacenar y analizar fácilmente datos de registros para DevOps, datos de sensores para aplicaciones de IoT y datos de telemetría industrial para mantenimiento de equipos
 
     ### Amazon DocumentDB 
-    (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
+    > (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
 
   ## AWS Migration and Transfer
 
