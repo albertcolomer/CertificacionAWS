@@ -53,9 +53,9 @@
     - [AWS CodeStar](AWS-CodeStar)
     - [AWS Fault Injection Simulator](AWS-Fault-Injection-Simulator)
     - [AWS X-Ray](AWS-X-Ray)
-  - [Database (DB)](#database-db)
+  - [Database](#database)
     - [Amazon Aurora](#Amazon-Aurora)
-    - [Amazon DynamoDB .](#Amazon-DynamoDB)
+    - [Amazon DynamoDB](#Amazon-DynamoDB)
     - [Amazon ElastiCache](#Amazon-ElastiCache)
     - [Amazon Keyspaces](#Amazon-Keyspaces)
     - [Amazon Neptune](#Amazon-Neptune)
@@ -215,7 +215,7 @@
     ### Amazon DocumentDB 
     (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
 
-  ## Migration and Transfer
+  ## AWS Migration and Transfer
 
     ### AWS Application Migration Service
     ### AWS Migration Hub
