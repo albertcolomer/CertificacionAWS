@@ -2,19 +2,19 @@
 
 - [**Indice**](#)
   - [Analytics](#Analytics)
-    - [Amazon Athena ](#alta-disponibilidad)
-    - [Amazon CloudSearch ](#escalabilidad-vertical)
-    - [Amazon Elasticsearch Service](#escalabilidad-horizontal)
-    - [Amazon EMR](#elasticidad)
-    - [Amazon FinSpace](#agilidad)
-    - [Amazon Kinesis](#tolerancia-a-fallo)
-    - [Amazon Redshift](#capex)
-    - [Amazon QuickSight](#opex)
-    - [AWS Data Exchange](#nube-pública)
-    - [AWS Data Pipeline](#nube-privada)
-    - [AWS Glue](#nube-híbrida)
-    - [AWS Lake Formation ](#iaas)
-    - [Amazon Managed Streaming for Apache Kafka (Amazon MSK) ](#paas)
+    - [Amazon Athena](#Amazon-Athena)
+    - [Amazon CloudSearch](#Amazon-CloudSearch)
+    - [Amazon Elasticsearch Service](#Amazon-Elasticsearch-Service)
+    - [Amazon EMR](#Amazon-EMR)
+    - [Amazon FinSpace](#Amazon-FinSpace)
+    - [Amazon Kinesis](#Amazon-Kinesis)
+    - [Amazon Redshift](#Amazon-Redshift)
+    - [Amazon QuickSight](#Amazon-QuickSight)
+    - [AWS Data Exchange](#AWS-Data-Exchange)
+    - [AWS Data Pipeline](#AWS-Data-Pipeline)
+    - [AWS Glue](#AWS-Glue)
+    - [AWS Lake Formation](#AWS-Lake-Formation)
+    - [Amazon Managed Streaming for Apache Kafka (Amazon MSK)](#Amazon-Managed-Streaming-for-Apache-Kafka)
   - [Compute Services](#Compute-Services)
   - [Management and Governance](#Management&Governance)
     - [Amazon CloudWatch](#Amazon-CloudWatch)
@@ -120,6 +120,42 @@
 
   ## **Analytics**
 
+    ### Amazon Athena
+    > servicio de consulta interactivo que facilita el análisis de datos en Amazon S3 utilizando SQL estándar
+
+    ### Amazon CloudSearch
+    > servicio administrado en la nube de AWS que puedes configurar, administrar y escalar una solución de búsqueda para su sitio web o aplicación
+
+    ### Amazon Elasticsearch Service
+    > buscar, analizar y visualizar datos en tiempo real
+    Se integra con herramientas de codigo abierto como Kibana y Logstash ademas 
+    con otros servicios de AWS VPC, KMS, lambda, IAM
+
+    ### Amazon EMR
+    > plataforma de big data en la nube líder en la industria para procesar grandes cantidades de datos utilizando herramientas de código abierto como Apache Spark, Colmena, hbase, flink, hudi y Presto
+
+    ### Amazon FinSpace
+
+    ### Amazon Kinesis
+
+    ### Amazon Redshift
+
+    ### Amazon QuickSight
+
+    ### AWS Data Exchange
+
+    ### AWS Data Pipeline
+
+    ### AWS Glue
+
+    ### AWS Lake Formation
+
+    ### Amazon Managed Streaming for Apache Kafka
+
+
+    <br> 
+
+
   ## **Management and Governance**
 
     ### Amazon CloudWatch
@@ -155,37 +191,37 @@
   ## **Developer Tools**
 
     ### Amazon Corretto
-    distribución gratuita, multiplataforma y lista para producción del Open Java Development Kit (OpenJDK)
+    > distribución gratuita, multiplataforma y lista para producción del Open Java Development Kit (OpenJDK)
 
     ### AWS Cloud9
-    entorno de desarrollo integrado (IDE) basado en la nube, puede compartir rápidamente su entorno de desarrollo con su equipo
+    > entorno de desarrollo integrado (IDE) basado en la nube, puede compartir rápidamente su entorno de desarrollo con su equipo
 
     ### AWS CloudShell
-    shell basado en navegador, puede ejecutar scripts con la interfaz de línea de comandos de AWS (AWS CLI)
+    > shell basado en navegador, puede ejecutar scripts con la interfaz de línea de comandos de AWS (AWS CLI)
 
     ### CodeArtifact
-    servicio de repositorio de artefactos totalmente administrado que facilita a las organizaciones de cualquier tamaño almacenar, publicar y compartir de forma segura paquetes de software utilizados en su proceso de desarrollo de software
+    > servicio de repositorio de artefactos totalmente administrado que facilita a las organizaciones de cualquier tamaño almacenar, publicar y compartir de forma segura paquetes de software utilizados en su proceso de desarrollo de software
 
     ### CodeBuild
-    servicio de compilación totalmente administrado que compila código fuente, ejecuta pruebas y produce paquetes de software que están listos para implementar
+    > servicio de compilación totalmente administrado que compila código fuente, ejecuta pruebas y produce paquetes de software que están listos para implementar
 
     ### CodeCommit
-     servicio de control de código fuente totalmente administrado que facilita a las empresas alojar repositorios Git privados seguros y altamente escalables
+    > servicio de control de código fuente totalmente administrado que facilita a las empresas alojar repositorios Git privados seguros y altamente escalables
 
     ### CodeDeploy
-    servicio que automatiza las implementaciones de código en cualquier instancia
+    > servicio que automatiza las implementaciones de código en cualquier instancia
 
     ### CodePipeline
-    servicio de entrega continua totalmente administrado, puede integrar fácilmente CodePipeline con servicios de terceros como GitHub 
+    > servicio de entrega continua totalmente administrado, puede integrar fácilmente CodePipeline con servicios de terceros como GitHub 
 
     ### CodeStar
-    proporciona una interfaz de usuario unificada que le permite administrar fácilmente sus actividades de desarrollo de software 
+    > proporciona una interfaz de usuario unificada que le permite administrar fácilmente sus actividades de desarrollo de software 
 
     ### Fault Injection Simulator
-    servicio totalmente administrado para ejecutar experimentos de inyección de fallas en AWS 
+    > servicio totalmente administrado para ejecutar experimentos de inyección de fallas en AWS 
 
     ### AWS X-Ray
-    Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
+    > Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
 
     <br>
 
