@@ -38,15 +38,9 @@
     - [AWS Console Mobile Application](AWS-Console-Mobile-Application)
     - [AWS License Manager](AWS-License-Manager)
     - [AWS Well-Architected Tool](AWS-Well-Architected-Tool)  
-  - [**Categorias de Azure**](#categorias-de-azure)
-    - [Compute](#compute)
-    - [Network](#network)
-    - [Storage](#storage)
-    - [Móvil](#móvil)
-    - [Web](#web)
-    - [Internet of Things (IoT)](#internet-of-things-iot)
-    - [Big Data](#big-data)
-    - [Inteligencia Artificial (IA)](#inteligencia-artificial-ia)
+    - [AWS Application Migration Service](#AWS-Application-Migration-Service)
+    - [AWS Migration Hub](#AWS-Migration-Hub)
+    - [AWS Application Discovery Service](#AWS-Application-Discovery-Service)
   - [Developer Tools](#Developer-Tools)
     - [Amazon Corretto](Amazon-Corretto)
     - [AWS Cloud9](AWS-Cloud9)
@@ -69,15 +63,15 @@
     - [Amazon Quantum Ledger Database](#Amazon-Quantum-Ledger-Database)
     - [Amazon  Timestream](#Amazon-Timestream)
     - [Amazon DocumentDB](#Amazon-DocumentDB)
-  - [AWS Migration and Transfer](AWS-Migration-and-Transfer)
-    - [AWS Application Migration Service](AWS-Application-Migration-Service)
-    - [AWS Migration Hub](AWS-Migration-Hub)
-    - [AWS Application Discovery Service](AWS-Application-Discovery-Service)
-    - [AWS Database Migration Service](AWS-Database-Migration-Service)
-    - [AWS Server Migration Service](AWS-Server-Migration-Service)
-    - [AWS Snow Family](AWS-Snow-Family)
-    - [AWS DataSync](AWS-DataSync)
-    - [AWS Transfer Family](AWS-Transfer-Family)
+  - [AWS Migration and Transfer](#AWS-Migration-and-Transfer)
+    - [AWS Application Migration Service](#AWS-Application-Migration-Service)
+    - [AWS Migration Hub](#AWS-Migration-Hub)
+    - [AWS Application Discovery Service](#AWS-Application-Discovery-Service)
+    - [AWS Database Migration Service](#AWS-Database-Migration-Service)
+    - [AWS Server Migration Service](#AWS-Server-Migration-Service)
+    - [AWS Snow Family](#AWS-Snow-Family)
+    - [AWS DataSync](#AWS-DataSync)
+    - [AWS Transfer Family](#AWS-Transfer-Family)  
   - [Networking and Content Delivery](#Networking-and-Content-Delivery)
     - [Amazon API Gateway](#Amazon-API-Gateway)
     - [Amazon CloudFront](#Amazon-CloudFront)
@@ -91,28 +85,28 @@
     - [AWS Transit Gateway](#AWS-Transit-Gateway)
     - [AWS  VPN](#AWS-VPN)
     - [Elastic Load Balancing](#Elastic-Load-Balancing)
-  - [Security, Identity, and Compliance](#Security-Identity-Compliance)
+  - [Security, Identity, and Compliance](#Security-Identity-and-Compliance)
     - [Amazon Cognito](#Amazon-Cognito)
     - [Amazon Cloud Directory](#Amazon-Cloud-Directory)
-    - [Amazon Detective](Amazon-Detective)
-    - [Amazon GuardDuty](Amazon-GuardDuty)
-    - [Amazon Inspector](Amazon-Inspector)
-    - [Amazon Macie](Amazon-Macie)
-    - [AWS Artifact](AWS-Artifact)
-    - [AWS Audit Manager](AWS-Audit-Manager)
-    - [AWS Certificate Manager](AWS-Certificate-Manager)
-    - [AWS CloudHSM](AWS-MacCloudHSM)
-    - [AWS Directory Service](AWS-Directory-Service)
-    - [AWS Firewall Manager](AWS-Firewall-Manager)
-    - [AWS Identity and Access Management](AWS-Identity-and-Access-Management)
-    - [AWS Key Management Service](AWS-Key-Management-Service)
-    - [AWS Network Firewall](AWS-Network-Firewall)
-    - [AWS Resource Access Manager](AWS-Resource-Access-Manager)
-    - [AWS Secrets Manager](AWS-Secrets-Manager)
-    - [AWS Security Hub](AWS-Security-Hub)
-    - [AWS Shield](AWS-Shield)
-    - [AWS Single Sign-On](AWS-Single-Sign-On)
-    - [AWS WAF](AWS-WAF)
+    - [Amazon Detective](#Amazon-Detective)
+    - [Amazon GuardDuty](#Amazon-GuardDuty)
+    - [Amazon Inspector](#Amazon-Inspector)
+    - [Amazon Macie](#Amazon-Macie)
+    - [AWS Artifact](#Aws-Artifact)
+    - [AWS Audit Manager](#AWS-Audit-Manager)
+    - [AWS Certificate Manager](#AWS-Certificate-Manager)
+    - [AWS CloudHSM](#AWS-MacCloudHSM)
+    - [AWS Directory Service](#AWS-Directory-Service)
+    - [AWS Firewall Manager](#AWS-Firewall-Manager)
+    - [AWS Identity and Access Management](#AWS-Identity-and-Access-Management)
+    - [AWS Key Management Service](#AWS-Key-Management-Service)
+    - [AWS Network Firewall](#AWS-Network-Firewall)
+    - [AWS Resource Access Manager](#AWS-Resource-Access-Manager)
+    - [AWS Secrets Manager](#AWS-Secrets-Manager)
+    - [AWS Security Hub](#AWS-Security-Hub)
+    - [AWS Shield](#AWS-Shield)
+    - [AWS Single Sign On](#AWS-Single-Sign-On)
+    - [AWS Waf](#AWS-Waf)
   - [Storage](#Storage)
     - [Amazon Elastic Block Store ](#Amazon-Elastic-Block-Store)
     - [Amazon Elastic File System ](#Amazon-Elastic-File-System)
@@ -128,8 +122,10 @@
   ## Management and Governance
 
     ### Amazon CloudWatch
+    Servicio de monitoreo y administración, configurar alarmas de alta resolución, visualizar registros y métricas en paralelo, tomar decisiones automatizadas
 
     ### AWS Auto Scaling
+     proporciona una interfaz de usuario sencilla y potente que le permite crear planes de escalamiento para recursos (EC2, dynamoDB, Aurora)
 
     ### AWS CloudFormation
 
@@ -148,26 +144,37 @@
   ## Developer Tools
 
     ### Amazon Corretto
+    distribución gratuita, multiplataforma y lista para producción del Open Java Development Kit (OpenJDK)
 
     ### AWS Cloud9
+    entorno de desarrollo integrado (IDE) basado en la nube, puede compartir rápidamente su entorno de desarrollo con su equipo
 
     ### AWS CloudShell
+    shell basado en navegador, puede ejecutar scripts con la interfaz de línea de comandos de AWS (AWS CLI)
 
     ### CodeArtifact
+    servicio de repositorio de artefactos totalmente administrado que facilita a las organizaciones de cualquier tamaño almacenar, publicar y compartir de forma segura paquetes de software utilizados en su proceso de desarrollo de software
 
     ### CodeBuild
+    servicio de compilación totalmente administrado que compila código fuente, ejecuta pruebas y produce paquetes de software que están listos para implementar
 
     ### CodeCommit
+     servicio de control de código fuente totalmente administrado que facilita a las empresas alojar repositorios Git privados seguros y altamente escalables
 
     ### CodeDeploy
+    servicio que automatiza las implementaciones de código en cualquier instancia
 
     ### CodePipeline
+    servicio de entrega continua totalmente administrado, puede integrar fácilmente CodePipeline con servicios de terceros como GitHub 
 
     ### CodeStar
+    proporciona una interfaz de usuario unificada que le permite administrar fácilmente sus actividades de desarrollo de software 
 
     ### Fault Injection Simulator
+    servicio totalmente administrado para ejecutar experimentos de inyección de fallas en AWS 
 
     ### AWS X-Ray
+    Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
 
   ## Database
 
@@ -185,8 +192,8 @@
 
     ### Amazon ElastiCache 
     servicio web que facilita la implementación, operación y escalado de una caché en memoria en la nube,  admite dos motores de almacenamiento en caché en memoria de código abierto:
-    - Redis:  almacén de datos clave-valor en memoria, rápido, de código abierto y para usar como base de datos, caché y mensajes. Están disponibles clústeres de un solo nodo y de hasta 15 fragmentos, lo que permite una escalabilidad de hasta 3,55 TiB de datos en memori
-    - Memcache: sistema de almacenamiento en caché de objetos de memoria ampliamente adoptado
+    - `Redis:` almacén de datos clave-valor en memoria, rápido, de código abierto y para usar como base de datos, caché y mensajes. Están disponibles clústeres de un solo nodo y de hasta 15 fragmentos, lo que permite una escalabilidad de hasta 3,55 TiB de datos en memori
+    - `Memcache:` sistema de almacenamiento en caché de objetos de memoria ampliamente adoptado
 
     ### Amazon Keyspaces
     servicio de base de datos compatible con Apache Cassandra, escalable, de alta disponibilidad y administrado, datos están cifrados de forma predeterminada
@@ -208,9 +215,30 @@
     ### Amazon DocumentDB 
     (with MongoDB compatibility) operar cargas de trabajo de MongoDB implementa las API MongoDB 3.6 y 4.0 de código abierto de Apache 2.0
 
-  ## Security, Identity, and Compliance
+  ## Migration and Transfer
 
-    ### Amazon Cognito
+    ### AWS Application Migration Service
+    ### AWS Migration Hub
+    ### AWS Application Discovery Service
+    ### AWS Database Migration Service
+
+    ### AWS Server Migration Service
+    (SMS) permite automatizar, programar y realizar un seguimiento de replicaciones incrementales de volúmenes de servidores activos
+
+    ### AWS Snow Family
+
+    - `AWS Snowcone`: 8TB por dispositivo, múltiples capas de seguridad y cifrado
+    - `AWS Snowball`: admite tipos de instancias de Amazon EC2 específicos y funciones de AWS Lambda, puede desarrollar y probar en la nube de AWS y luego implementar aplicaciones en dispositivos en ubicaciones remotas para recopilar, preprocesar y enviar los datos a AWS
+    - `AWS Snowmobile`: 100 PB por contenedor, cifrado de 256 bits administradas a  través de AWS KMS, personal de seguridad, rastreo por GPS, monitoreo de alarmas, videovigilancia y vehículo de escolta opcional
+
+    ### AWS DataSync
+    servicio de transferencia de datos que le facilita la automatización de la transferencia de datos entre el almacenamiento local y Amazon S3 o Amazon Elastic File System (Amazon EFS)
+    DataSync utiliza un agente de software local para conectarse a sus sistemas de archivos o almacenamiento existentes mediante el protocolo Network File System **(NFS)**
+
+    ### AWS Transfer Family
+    soporte totalmente administrado para transferencias de archivos directamente hacia y desde Amazon S3 o Amazon EFS
+    Protocolo seguro de transferencia de archivos **(SFTP)**, el Protocolo de transferencia de archivos sobre SSL **(FTPS)** y el Protocolo de transferencia de archivos **(FTP)**
+   
 
   ## Networking and Content Delivery
     
@@ -334,13 +362,13 @@
 
     ### AWS Shield
     servicio de protección administrado de denegación de servicio distribuido (DDoS)
-    - AWS Shield Standard protege contra los ataques DDoS más comunes y frecuentes de la capa de transporte y de red que tienen como objetivo su sitio web o sus aplicaciones  con Amazon CloudFront y Amazon Route 53, recibirá protección integral de disponibilidad contra todos los ataques conocidos a la infraestructura (Capas 3 y 4)
-    - AWS Shield Advanced proporciona detección y mitigación adicionales contra ataques DDoS grandes y sofisticados, visibilidad de los ataques casi en tiempo real e integración con AWS WAF, un firewall de aplicaciones web, tambien  brinda acceso las 24 horas, los 7 días de la semana al equipo de respuesta DDoS (DRT) de AWS
+    - `AWS Shield Standard` protege contra los ataques DDoS más comunes y frecuentes de la capa de transporte y de red que tienen como objetivo su sitio web o sus aplicaciones  con Amazon CloudFront y Amazon Route 53, recibirá protección integral de disponibilidad contra todos los ataques conocidos a la infraestructura (Capas 3 y 4)
+    - `AWS Shield Advanced` proporciona detección y mitigación adicionales contra ataques DDoS grandes y sofisticados, visibilidad de los ataques casi en tiempo real e integración con AWS WAF, un firewall de aplicaciones web, tambien  brinda acceso las 24 horas, los 7 días de la semana al equipo de respuesta DDoS (DRT) de AWS
 
-    ### AWS Single Sign-On
+    ### AWS Single Sign On
     (SSO) administración centralizada del acceso SSO a múltiples cuentas de AWS y aplicaciones comerciales, incluye integraciones SAML
 
-    ### AWS WAF
+    ### AWS Waf
     control sobre qué tráfico permitir o bloquear en su aplicación web mediante la definición de reglas de seguridad web personalizables como inyección SQL o secuencias de comandos entre sitios
 
   ## Storage
