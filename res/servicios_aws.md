@@ -135,12 +135,23 @@
     > plataforma de big data en la nube líder en la industria para procesar grandes cantidades de datos utilizando herramientas de código abierto como Apache Spark, Colmena, hbase, flink, hudi y Presto
 
     ### Amazon FinSpace
+    > servicio de análisis y gestión de datos diseñado específicamente para la industria de servicios financieros **(FSI)** incluye una biblioteca de más de 100 funciones, como barras de tiempo y bandas de Bollinger
 
     ### Amazon Kinesis
+    > puede ingerir datos en tiempo real, como videos, audio, registros de aplicaciones, secuencias de clics en sitios web y datos de telemetría de IoT para aprendizaje automático, análisis y otras aplicaciones para responder instantáneamente, ofrece 4 servicios: 
+    - `K Data Firehose` servicio administrado capturar, puede procesar por lotes, comprimir, transformar y cifrar los datos antes de cargarlos de transmisión en Amazon S3, Amazon Redshift, Amazon Elasticsearch Service y Splunk
+    - `K Data Analytics`
+    Los usuarios de SQL pueden consulta utilizando plantillas y un editor SQL interactivo
+    Los desarrolladores de Java pueden crear aplicaciones de transmisión para transformar y analizar
+    - `K Data Streams` Los datos recopilados están disponibles en milisegundos para permitir casos de uso de análisis en tiempo real, como paneles de control, detección de anomalías, precios dinámicos y más.
+    - `K Video Streams` análisis, aprendizaje automático (ML), reproducción ... y  mediante la integración con Amazon Rekognition Video y bibliotecas para marcos de aprendizaje automático como Apache MxNet, TensorFlow y OpenCV. .
 
     ### Amazon Redshift
+    > almacén de datos en la nube puedes analizar sus datos utilizando SQL estándar y sus herramientas de Business Intelligence (BI) existentes
+    consultas analíticas TB, PB de datos estructurados
 
     ### Amazon QuickSight
+    > servicio de inteligencia empresarial (BI) basado en la nube, permite crear y publicar paneles interactivos a los que se puede acceder desde navegadores o dispositivos móviles
 
     ### AWS Data Exchange
 
