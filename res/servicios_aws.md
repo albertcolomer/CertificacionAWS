@@ -139,11 +139,11 @@
 
     ### Amazon Kinesis
     > puede ingerir datos en tiempo real, como videos, audio, registros de aplicaciones, secuencias de clics en sitios web y datos de telemetría de IoT para aprendizaje automático, análisis y otras aplicaciones para responder instantáneamente, ofrece 4 servicios: 
-    - `K Data Firehose` >> servicio administrado capturar, puede procesar por lotes, comprimir, transformar y cifrar los datos antes de cargarlos de transmisión en Amazon S3, Amazon Redshift, Amazon Elasticsearch Service y Splunk
-    - `K Data Analytics` >> Los usuarios de SQL pueden consulta utilizando plantillas y un editor SQL interactivo
+    > - `K Data Firehose` servicio administrado capturar, puede procesar por lotes, comprimir, transformar y cifrar los datos antes de cargarlos de transmisión en Amazon S3, Amazon Redshift, Amazon Elasticsearch Service y Splunk
+    > - `K Data Analytics` Los usuarios de SQL pueden consulta utilizando plantillas y un editor SQL interactivo
     Los desarrolladores de Java pueden crear aplicaciones de transmisión para transformar y analizar
-    - `K Data Streams` >> Los datos recopilados están disponibles en milisegundos para permitir casos de uso de análisis en tiempo real, como paneles de control, detección de anomalías, precios dinámicos y más.
-    - `K Video Streams` >> análisis, aprendizaje automático (ML), reproducción ... y  mediante la integración con Amazon Rekognition Video y bibliotecas para marcos de aprendizaje automático como Apache MxNet, TensorFlow y OpenCV. .
+    > - `K Data Streams` Los datos recopilados están disponibles en milisegundos para permitir casos de uso de análisis en tiempo real, como paneles de control, detección de anomalías, precios dinámicos y más.
+    > - `K Video Streams` análisis, aprendizaje automático (ML), reproducción ... y  mediante la integración con Amazon Rekognition Video y bibliotecas para marcos de aprendizaje automático como Apache MxNet, TensorFlow y OpenCV. .
 
     ### Amazon Redshift
     > almacén de datos en la nube puedes analizar sus datos utilizando SQL estándar y sus herramientas de Business Intelligence (BI) existentes
@@ -153,18 +153,21 @@
     > servicio de inteligencia empresarial (BI) basado en la nube, permite crear y publicar paneles interactivos a los que se puede acceder desde navegadores o dispositivos móviles
 
     ### AWS Data Exchange
+    > Suscripcion y uso de datos de terceros, cargarlos en s3 y analizarlso 
 
     ### AWS Data Pipeline
+    > servicio web que le ayuda a procesar y mover datos de forma fiable entre diferentes servicios informáticos y de almacenamiento de AWS, así como fuentes de datos locales, en intervalos específicos
 
     ### AWS Glue
+    > descubre sus datos y almacena los metadatos asociados (por ejemplo, definición de tabla y esquema) en el catálogo de datos de AWS Glue. Una vez catalogados, sus datos se pueden buscar, consultar y disponibles de inmediato para ETL.
 
     ### AWS Lake Formation
+    > configuración de un lago de datos seguro en días. Un lago de datos es un repositorio centralizado, curado y seguro que almacena todos sus datos, tanto en su forma original como preparados para el análisis
 
     ### Amazon Managed Streaming for Apache Kafka
-
+    > servicio totalmente administrado que aprovisiona y ejecuta automáticamente sus clústeres de Apache Kafka. Amazon MSK monitorea continuamente el estado del clúster y reemplaza automáticamente los nodos en mal estado sin tiempo de inactividad para su aplicación. Además, Amazon MSK protege su clúster de Apache Kafka cifrando los datos en reposo
 
     <br> 
-
 
   ## **Management and Governance**
 
@@ -234,6 +237,27 @@
     > Con X-Ray, puede comprender cómo se están desempeñando su aplicación y sus servicios subyacentes para poder identificar y solucionar la causa raíz de los problemas y errores de rendimiento
 
     <br>
+
+  ## Containers
+
+    ### Amazon Elastic Container Registry
+    > (ECR) es un registro de contenedores Docker completamente administrado
+    ECR aloja sus imágenes en una arquitectura escalable y de alta disponibilidad
+    integrado en (ECS) y (IAM)
+
+    ### Amazon Elastic Container Service 
+    > servicio de orquestación de contenedores altamente escalable y de alto rendimiento
+
+    ### Amazon Elastic Kubernetes Service
+    > (Amazon EKS) facilita la implementación, administración y escalado de aplicaciones en contenedores utilizando Kubernetes en AWS
+    ejecuta la infraestructura en múltiples zonas de disponibilidad
+    certificación de conformidad con Kubernetes
+
+    ### AWS App2Container
+    > (A2C) es una herramienta de línea de comandos para modernizar aplicaciones .NET y Java en aplicaciones en contenedores
+
+    ### Red Hat OpenShift Service on AWS
+
 
   ## **Database**
 
